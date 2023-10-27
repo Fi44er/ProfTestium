@@ -1,0 +1,20 @@
+.main {
+    height: 98.2vh;
+    background-color: #191E2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logForm {
+    display: grid;
+    justify-content: center;
+}
+
+.inpBlock {
+    display: grid;
+}
+
+.inpBlock input {
+    margin-bottom: 18px;
+}
