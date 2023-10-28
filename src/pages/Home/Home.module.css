@@ -1,0 +1,48 @@
+.headerContent {
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+.headerBlock {
+  width: 1198px;
+  height: 680px;
+  background-color: #d31313;
+  border-radius: 30px;
+}
+.headerTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 134px 74px;
+}
+.headerImg img {
+  padding-top: 55px;
+}
+.headerText h1 {
+  width: 759px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+}
+.headerText h2 {
+  font-weight: 700;
+  font-size: 46px;
+  padding-left: 175px;
+  padding-top: 33px;
+  padding-bottom: 72px;
+  color: white;
+}
+.headerText li {
+  padding-left: 155px;
+  color: white;
+  padding-bottom: 46px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.headerButton {
+  display: flex;
+  justify-content: center;
+  grid-gap: 44px;
+  padding-top: 25px;
+}
