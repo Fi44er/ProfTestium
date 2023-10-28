@@ -15,8 +15,16 @@
   justify-content: center;
   padding-top: 50px;
 }
+
+.headerImg {
+  background: url(/src/assets/img/Ellipse\ 1.png) no-repeat center;
+  background-size: cover;
+}
+
 .headerImg img {
   padding-top: 55px;
+  object-fit: cover;
+  max-height: 517px;
 }
 .headerText h1 {
   text-align: right;
