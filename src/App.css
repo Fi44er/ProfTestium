@@ -124,7 +124,7 @@ header {
   padding-top: 100px;
 }
 .formFooter textarea {
-  width: 300px;
+  width: 100%;
   height: 150px;
   background-color: #fff;
   border: none;

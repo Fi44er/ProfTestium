@@ -1,7 +1,8 @@
-import Button from "../../components/globalComponents/Buttons/Button"
-import Input from "../../components/globalComponents/Input/Input"
-import style from "./Home.module.css"
-import Keywords from "./Keywords/Keywords"
+import Button from "../../components/globalComponents/Buttons/Button";
+import Input from "../../components/globalComponents/Input/Input";
+import style from "./Home.module.css";
+import Keywords from "./Keywords/Keywords";
+import TrialBlock from "./Trialplatform/TrialBlock";
 
 const Home = () => {
   return (
@@ -44,8 +45,9 @@ const Home = () => {
         </div>
       </div>
       <Keywords />
+      <TrialBlock />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

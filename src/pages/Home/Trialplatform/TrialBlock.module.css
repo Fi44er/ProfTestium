@@ -1,0 +1,45 @@
+.trialContent {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+.trialBlock {
+  width: 100%;
+  height: 680px;
+  background-color: #6d32ff;
+  border-radius: 30px;
+}
+.trialTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.trialImg img {
+  padding-top: 55px;
+  object-fit: cover;
+  max-height: 517px;
+}
+.trialText h1 {
+  text-align: left;
+  line-height: 79px;
+  padding-bottom: 71px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+}
+.trialText p {
+  color: white;
+  padding-bottom: 46px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+.trialButton {
+  display: flex;
+  justify-content: left;
+  grid-gap: 44px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
