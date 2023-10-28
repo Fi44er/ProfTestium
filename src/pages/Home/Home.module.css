@@ -1,35 +1,30 @@
 .headerContent {
   display: flex;
   justify-content: center;
-  padding-top: 90px;
 }
 .headerBlock {
-  width: 1198px;
-  height: 680px;
-  background-color: #d31313;
-  border-radius: 30px;
+  width: 100%;
+  height: 730px;
+  background-color: #6d32ff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .headerTitle {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 134px 74px;
 }
 .headerImg img {
   padding-top: 55px;
 }
 .headerText h1 {
+  text-align: right;
+  line-height: 79px;
+  padding-bottom: 71px;
   width: 759px;
-  height: 32px;
   font-weight: 700;
   font-size: 46px;
-  color: white;
-}
-.headerText h2 {
-  font-weight: 700;
-  font-size: 46px;
-  padding-left: 175px;
-  padding-top: 33px;
-  padding-bottom: 72px;
   color: white;
 }
 .headerText li {
@@ -45,4 +40,5 @@
   justify-content: center;
   grid-gap: 44px;
   padding-top: 25px;
+  padding-bottom: 50px;
 }
