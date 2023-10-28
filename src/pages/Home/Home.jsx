@@ -11,8 +11,11 @@ const Home = () => {
             <img src="/public/b2b-online-form 1.svg" alt="" />
           </div>
           <div className={style.headerText}>
-            <h1>Платформа нового поколения</h1>
-            <h2>Для онлайн обучения</h2>
+            <h1>
+              Платформа нового поколения
+              <br />
+              Для онлайн обучения
+            </h1>
             <li>
               один месяц бесплатных занятий познакомит вас
               <br /> с возможностями интерактивной платформы
@@ -22,7 +25,7 @@ const Home = () => {
               <br /> вас с возможностями интерактивной платформы
             </li>
             <div className={style.headerButton}>
-              <Button backBtn="#fff" colorBtn="#d31313" widthBtn={246}>
+              <Button backBtn="#fff" colorBtn="#6d32ff" widthBtn={246}>
                 Попробовать бесплатно
               </Button>
               <Button
