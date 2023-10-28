@@ -9,9 +9,15 @@
 .logForm {
     display: grid;
     justify-content: center;
-    background: #d31313;
-    padding: 50px 50px 120px 50px;
+    background: #6d32ff;
+    padding: 50px 50px 50px 50px;
     border-radius: 20px;
+}
+
+.logForm h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .inpBlock {
@@ -20,4 +26,8 @@
 
 .inpBlock input {
     margin-bottom: 18px;
+}
+
+.inpBlock button {
+    margin-top: 30px;
 }
