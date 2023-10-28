@@ -1,14 +1,17 @@
 .main {
-    height: 98.2vh;
-    background-color: #191E2E;
+    height: 85.2vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 .logForm {
     display: grid;
     justify-content: center;
+    background: #d31313;
+    padding: 50px 50px 120px 50px;
+    border-radius: 20px;
 }
 
 .inpBlock {
