@@ -1,4 +1,4 @@
-import style from './Register.module.css'
+import style from "./Register.module.css"
 import Input from "../../components/globalComponents/Input/Input"
 import Button from "../../components/globalComponents/Buttons/Button"
 
@@ -13,33 +13,38 @@ const Register = () => {
         <h1>Зарегестрироваться</h1>
         <div className={style.inpBlock}>
           <Input
-            placeInp="Имя"
+            placeInp="Email"
+            backInp="rgba(255, 255, 255, 0.5)"
+            colorInp="#000"
+          />
+          <Input
+            typeBtn="text"
+            placeInp="ФИО"
+            х
+            backInp="rgba(255, 255, 255, 0.5)"
+            colorInp="#000"
+          />
+          <Input
+            typeBtn="text"
+            placeInp="Телефон"
+            backInp="rgba(255, 255, 255, 0.5)"
+            colorInp="#000"
+          />
+          <Input
+            typeBtn="text"
+            placeInp="Название организации"
+            backInp="rgba(255, 255, 255, 0.5)"
+            colorInp="#000"
+          />
+          <Input
+            typeBtn="text"
+            placeInp="Адресс"
             backInp="rgba(255, 255, 255, 0.5)"
             colorInp="#000"
           />
           <Input
             typeBtn="password"
-            placeInp="Фам"х
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
-          />
-          <Input
-            placeInp="Логин, почта или телефон"
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
-          />
-          <Input
-            placeInp="Логин, почта или телефон"
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
-          />
-          <Input
-            placeInp="Логин, почта или телефон"
-            backInp="rgba(255, 255, 255, 0.5)"
-            colorInp="#000"
-          />
-          <Input
-            placeInp="Логин, почта или телефон"
+            placeInp="Пароль"
             backInp="rgba(255, 255, 255, 0.5)"
             colorInp="#000"
           />
