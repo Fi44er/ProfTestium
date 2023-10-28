@@ -1,0 +1,22 @@
+.cart:not(:last-child) {
+    padding-bottom: 30px;
+}
+
+.cart div {
+    display: flex;
+    grid-gap: 30px;
+}
+
+.cart div h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.cart div h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cart div p {
+    font-size: 16px;
+}
