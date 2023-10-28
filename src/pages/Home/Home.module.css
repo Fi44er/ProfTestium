@@ -4,7 +4,7 @@
 }
 .headerBlock {
   width: 100%;
-  height: 730px;
+  height: 580px;
   background-color: #6d32ff;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -13,7 +13,7 @@
 .headerTitle {
   display: flex;
   justify-content: center;
-  padding: 134px 74px;
+  padding-top: 50px;
 }
 .headerImg img {
   padding-top: 55px;
@@ -40,5 +40,5 @@
   justify-content: center;
   grid-gap: 44px;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
