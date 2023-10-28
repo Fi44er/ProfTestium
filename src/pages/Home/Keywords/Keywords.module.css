@@ -1,0 +1,7 @@
+.KeywordsBlock {
+  width: 100%;
+}
+.KeywordsInside {
+  display: grid;
+  justify-content: center;
+}
