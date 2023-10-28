@@ -9,6 +9,7 @@ const Input = ({
   typeBtn,
   placeInp,
   borderInp,
+  heightInp,
 }) => {
   return (
     <input
@@ -22,6 +23,7 @@ const Input = ({
         border: borderInp,
         fontSize: sizeInp,
         fontWeight: weightInp,
+        height: heightInp,
       }}
     />
   )
@@ -34,6 +36,7 @@ Input.defaultProps = {
   borderInp: "none",
   sizeInp: 17,
   weightInp: 400,
+  heightInp: 50,
 }
 
 export default Input

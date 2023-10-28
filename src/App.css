@@ -68,3 +68,88 @@ header {
   font-weight: 700;
   color: #fff;
 }
+
+/* footer */
+.footerBlock {
+  display: flex;
+  justify-content: space-around;
+  background-color: #6d32ff;
+  width: 100%;
+  height: 550px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.footerLogo a {
+  color: #6d32ff;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+.footerLogo {
+  padding-top: 100px;
+}
+.footerMenu {
+  padding-top: 100px;
+}
+.footerMenu a {
+  color: #fff;
+  gap: 40px;
+}
+.footerMenu a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+
+  width: 0;
+  transition: 0.3s;
+}
+.footerMenu a:hover:after {
+  width: 100%;
+}
+.footerMenu li {
+  list-style-type: none;
+  padding-top: 35px;
+}
+
+.footerMenu li a {
+  font-weight: 600;
+}
+.formFooter {
+  display: grid;
+  padding-top: 100px;
+}
+.formFooter textarea {
+  width: 300px;
+  height: 150px;
+  background-color: #fff;
+  border: none;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footerButton {
+  display: flex;
+  justify-content: center;
+}
+.formHeading {
+  background-color: #fff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formHeading a {
+  color: #6d32ff;
+  font-weight: 700;
+  size: 20px;
+}
